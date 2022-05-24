@@ -1,5 +1,16 @@
+require_relative 'animal'
+
 class Cat < Animal
-  def say_name(name)
-    p "#{name}"
+  attr_accessor :name
+
+  def initialize(n)
+    self.name = n
+  end
+
+  def speak
+    "#{self.name} says miauu"
   end
 end
+
+kati = Cat.new("Kati")
+p kati.speak
