@@ -1,5 +1,11 @@
   class Animal
-    def speak(sound)
-      p "#{sound}"
+    attr_accessor :name
+
+    def initialize(n)
+      self.name = n
+    end
+
+    def sound
+      self.name
     end
   end
