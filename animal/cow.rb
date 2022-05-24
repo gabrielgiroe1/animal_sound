@@ -1,5 +1,11 @@
+require_relative 'animal'
+
 class Cow < Animal
-  def say_name(name)
-    p "#{name}"
+
+  def sound
+    super + " says muuuu!"
   end
 end
+
+milka = Cow.new("Milka")
+p milka.sound

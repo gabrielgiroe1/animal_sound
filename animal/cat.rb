@@ -1,5 +1,11 @@
+require_relative 'animal'
+
 class Cat < Animal
-  def say_name(name)
-    p "#{name}"
+
+  def sound
+    super + " says miauu"
   end
 end
+
+kati = Cat.new("Kati")
+p kati.sound

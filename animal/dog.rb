@@ -1,5 +1,11 @@
+require_relative 'animal'
+
 class Dog < Animal
-  def say_name(name)
-    p "#{name}"
+
+  def sound
+    super + " says arf!"
   end
 end
+
+rex = Dog.new("Azor")
+p rex.sound
