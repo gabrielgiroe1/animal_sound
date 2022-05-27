@@ -6,6 +6,3 @@ class Dog < Animal
     super + " says arf!"
   end
 end
-
-rex = Dog.new("Azor")
-p rex.sound

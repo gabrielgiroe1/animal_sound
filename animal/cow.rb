@@ -6,6 +6,3 @@ class Cow < Animal
     super + " says muuuu!"
   end
 end
-
-milka = Cow.new("Milka")
-p milka.sound
