@@ -6,6 +6,3 @@ class Cat < Animal
     super + " says miauu"
   end
 end
-
-kati = Cat.new("Kati")
-p kati.sound
