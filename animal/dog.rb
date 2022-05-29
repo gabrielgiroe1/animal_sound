@@ -3,6 +3,6 @@ require_relative 'animal'
 class Dog < Animal
 
   def sound
-    super + " says arf!"
+    "arf"
   end
 end
