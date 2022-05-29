@@ -1,8 +1,7 @@
 require_relative 'animal'
 
 class Cat < Animal
-
   def sound
-    super + " says miauu"
+    " miauu"
   end
 end
